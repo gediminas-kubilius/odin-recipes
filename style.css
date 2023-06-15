@@ -5,32 +5,45 @@
 }
 
 .recipebox {
-  padding-top: 20px;
-  gap: 20px;
+  width: 70%;
   margin: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  width: 50%;
   border: 1px solid black;
+  
 }
 
-.recipebox h1 {
-  letter-spacing: 5px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
 .recipebox img {
-  width: 40%;
-  border-radius: 20px;
-  border-bottom: 1px solid black;
+  width: 20%;
+}
+
+.recipebox h1, h4 {
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .recipebox p {
+  width: 70%;
   text-align: center;
-  width: 97%;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  text-align: justify;
+}
+
+.listbox {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+ul, ol {
+  width: 50%;
+  font-size: 15px;
+  font-weight: 700;
 }
